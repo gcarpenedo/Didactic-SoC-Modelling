@@ -17,3 +17,5 @@ Bender.lock
 __pycache__
 sim_build
 .venv
+doc/vp
+.vscode/
