@@ -9,8 +9,8 @@
 # * 
 ###############################################
 
-BUILD_DIR ?= $(realpath $(CURDIR))/../build
-START_TIME=`date +%F_%H:%M`
+BUILD_DIR ?= ../build
+START_TIME=`date +%F_%H-%M`
 SHELL = bash
 
 DUT = tb_didactic
@@ -51,14 +51,14 @@ VLOG_OPTS = \
 
 BENDER ?= bender
 
-COMMON_CELLS_DIR ?= $(shell $(BENDER) path common_cells)
-AXI_DIR          ?= $(shell $(BENDER) path axi)
-APB_DIR          ?= $(shell $(BENDER) path apb)
-REGIF_DIR        ?= $(shell $(BENDER) path register_interface)
-OBI_DIR          ?= $(shell $(BENDER) path obi)
-IBEX_DIR         ?= $(BUILD_DIR)/../vendor_ips/ibex
+COMMON_CELLS_DIR ?= $(shell $(BENDER) path common_cells | tr '\\' '/')
+AXI_DIR          ?= $(shell $(BENDER) path axi | tr '\\' '/')
+APB_DIR          ?= $(shell $(BENDER) path apb | tr '\\' '/')
+REGIF_DIR        ?= $(shell $(BENDER) path register_interface | tr '\\' '/')
+OBI_DIR          ?= $(shell $(BENDER) path obi | tr '\\' '/')
+IBEX_DIR         ?= ../vendor_ips/ibex
 
-SIM_FLIST        ?= $(shell $(BENDER) script flist -t rtl -t vendor -t simulation -t tracer -t didactic_obi)
+SIM_FLIST ?= $(shell $(BENDER) script flist -t rtl -t vendor -t simulation -t tracer -t didactic_obi | tr '\\' '/')
 
 INCLUDES ?= \
 	+incdir+$(COMMON_CELLS_DIR)/include \
