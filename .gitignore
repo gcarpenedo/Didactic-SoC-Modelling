@@ -2,6 +2,7 @@ build/
 obj_dir/
 logs/
 *.wlf
+*.vcd
 modelsim.ini
 transcript
 etch*
@@ -17,5 +18,5 @@ Bender.lock
 __pycache__
 sim_build
 .venv
-doc/vp
+doc/learn
 .vscode/
