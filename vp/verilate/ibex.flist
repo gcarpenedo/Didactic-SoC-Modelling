@@ -1,0 +1,38 @@
+# Prim packages and dummy macros required by Ibex
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_ram_1p_pkg.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_secded_pkg.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_util_pkg.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_cipher_pkg.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/vendor/lowrisc_ip/ip/prim/rtl/prim_assert_dummy_macros.svh
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/dv/uvm/core_ibex/common/prim/prim_pkg.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/dv/uvm/core_ibex/common/prim/prim_buf.sv
+
+# Clock gating
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/syn/rtl/prim_clock_gating.v
+
+# Core Ibex 
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_pkg.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_csr.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_compressed_decoder.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_decoder.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_counter.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_alu.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_fetch_fifo.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_prefetch_buffer.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_multdiv_fast.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_register_file_ff.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_ex_block.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_controller.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_cs_registers.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_pmp.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_if_stage.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_id_stage.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_load_store_unit.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_wb_stage.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_core.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_top.sv
+
+# Tracer 
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_tracer_pkg.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_tracer.sv
+C:\Vivado\Didactic-SoC-Modelling\vendor_ips/ibex/rtl/ibex_top_tracing.sv
